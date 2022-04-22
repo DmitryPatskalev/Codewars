@@ -1,4 +1,4 @@
-var areaOrPerimeter = function (l, w) {
+let areaOrPerimeter = function (l, w) {
     if (l === w) {
         return l * w
     }
