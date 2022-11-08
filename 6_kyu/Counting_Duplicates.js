@@ -1,6 +1,6 @@
 function duplicateCount(text) {
   let count = text.toLowerCase().split('').reduce((acc, n) => (acc[n] = (acc[n] || 0) + 1, acc), {});
-  return Object.values(count).filter(n => n > 1).length;
+  return Object.values(count).filter(n => n > 1).length
 }
 
 
